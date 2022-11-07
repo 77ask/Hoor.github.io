@@ -1,0 +1,15 @@
+echo "# Hoor.github.io" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/77ask/Hoor.github.io.git
+git push -u origin main
+Note: Anything that starts with "//" is not part of the terminal command but just a comment for explanation purposes. Ignore it.
+cd Documents // navigates from home to "Documents" folder
+mkdir portfolios // creates "portfolios" folder inside Documents
+cd portfolios // navigates inside the created folder "portfolios"
+// Bonus: To run all the above commands at once it would be
+cd Documents && mkdir portfolios && cd portfolio
+
+git clone https://github.com/hoor/hoor.github.io.git
